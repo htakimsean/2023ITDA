@@ -1,0 +1,22 @@
+{"properties": [
+  {
+    "name": "naver.client.id",
+    "type": "java.lang.String",
+    "description": "A description for 'naver.client.id'"
+  },
+  {
+    "name": "naver.redirect.url",
+    "type": "java.lang.String",
+    "description": "A description for 'naver.redirect.url'"
+  },
+  {
+    "name": "my.sendfile",
+    "type": "java.lang.String",
+    "description": "A description for 'my.sendfile'"
+  },
+  {
+    "name": "my.savefolder",
+    "type": "java.lang.String",
+    "description": "A description for 'my.savefolder'"
+  }
+]}

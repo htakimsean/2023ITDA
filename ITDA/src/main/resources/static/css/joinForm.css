@@ -1,0 +1,148 @@
+	#sellerback {
+		width: 100%;
+		display: flex;
+    	justify-content: center;
+    	text-align: center;
+	}
+	#sellerform {
+		width: 40%;
+		border: 1px solid black;
+		margin: 150px auto 50px auto;
+		background: white;
+	}
+
+	#section {
+		margin: 5px 0px;
+	    display: flex;
+	    flex-direction: row;
+	    flex-wrap: wrap;
+	    width: 550px;
+	    text-align: left;
+	}
+	.num0, .num1, .num2, .num3, .num4, .num5, 
+	.num6, .num7, .num8, .num9, .num10, .num11 {
+		text-align: center;
+		margin: 15px;
+		font-family: 'Malgun Gothic', '맑은 고딕', sans-serif;
+	}
+	
+	
+	
+	
+
+
+
+.num0 label,
+.num1 label,
+.num2 label,
+.num3 label,
+.num4 label,
+.num5 label,
+.num6 label,
+.num7 label,
+.num8 label,
+.num9 label,
+.num10 label,
+.num11 label {
+    font-family: 'Malgun Gothic', '맑은 고딕', sans-serif; 
+}
+
+
+	
+	
+	
+	
+	
+	.num12 {
+	text-align: center;
+	margin: 10px;
+	display: flex;
+	
+    }
+    
+    .center-div {
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+	}
+	
+	#name, #date_birth, #address1, #address2,
+	#zip_code, #password, #password_confirm {
+		width: 100%;
+		height: 40px;
+		outline: none;
+		border: none;
+		border-bottom: 1px solid black;
+	}
+#id_butt {
+	width: 20%;
+	height: 40px;
+	background: #00ced1; /* 버튼의 배경색을 #4169e1로 변경 */
+	color: white;
+	border-radius: 8px; 
+	cursor: pointer;
+	border: none; /* 테두리 없애기 */
+}
+
+
+	#profile {
+		height: 40px;
+	}
+	#phone {
+		width: 100%;
+		height: 40px;
+		outline: none;
+		border: none;
+		border-bottom: 1px solid black;
+	}
+	#email {
+		width: 100%;
+		height: 40px;
+		outline: none;
+		border: none;
+		border-bottom: 1px solid black;
+	}
+	#categories {
+		width: 100%;
+		height: 40px;
+		margin: 15px;
+	}
+	input[type="radio"] {
+  		margin-left: 30px;
+	}
+#sellerback input[type="text"],
+#sellerback input[type="password"] {
+    border: none; /* 테두리 제거 */
+    border-radius: 8px; /* 둥글게 */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25); /* 흐리게 만드는 그림자 효과 */
+}
+	
+	#intro {
+		width: 100%;
+		height: 150px;
+		resize: none;
+	}
+.signup_butt, .cancel_butt {
+	width: 40%;
+	height: 40px;
+	background: #00ced1	; /* 버튼의 배경색을 #4169e1로 변경 */
+	color: white;
+	border-radius: 8px; 
+	cursor: pointer;
+	border: none; /* 테두리 없애기 */
+}
+
+#cancel_btn {
+	background: #00ced1; /* 버튼의 배경색을 #4169e1로 변경 */
+	color: white;
+	border-radius: 8px; 
+	cursor: pointer;
+	border: none; /* 테두리 없애기 */
+}
+	#showid {
+		width: 100%;
+		height: 40px;
+		outline: none;
+		border: none;
+		border-bottom: 1px solid black;
+	}
