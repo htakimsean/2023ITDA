@@ -1,5 +1,6 @@
-# JavaScript 제외
-*.js linguist-vendored
+# 예시: JavaScript 파일 최소화
+npx terser yourfile.js -o yourfile.min.js
+
 # CSS 제외
 *.css linguist-vendored
 # 이미지 제외 (이미지 파일의 비율이 영향을 미칠 수 있음)
