@@ -1,5 +1,5 @@
-# JavaScript를 제외하거나 최소화 후 파일은 'linguist-vendored'로 처리
-*.js linguist-vendored
+# 자바스크립트 파일을 Plaintext로 처리
+*.js linguist-language=Plaintext
 
 # CSS 파일 제외
 *.css linguist-vendored
