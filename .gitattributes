@@ -1,0 +1,7 @@
+# JavaScript 제외
+*.js linguist-vendored
+# CSS 제외
+*.css linguist-vendored
+# 이미지 제외 (이미지 파일의 비율이 영향을 미칠 수 있음)
+*.png linguist-vendored
+*.jpg linguist-vendored
